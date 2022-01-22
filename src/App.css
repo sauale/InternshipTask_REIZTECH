@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(198, 251, 209);
+}
+
+.title-header {
+  text-align: center;
+}
+
+.myButton {
+  background-color: #44c767;
+  border-radius: 15px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 8px 8px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin: 10px;
+}
+.myButton:hover {
+  background-color: #5cbf2a;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.page-container {
+  text-align: center;
+}
+
+.current-page-header {
+  margin: 0px 0px;
+}
+
+.filterButton {
+  float: right;
+  background-color: #44c767;
+  border-radius: 15px;
+  border: 1px solid #18ab29;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 8px 8px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin: 10px;
+}
+.pageButton {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #020101;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 8px 16px;
+  margin: 5px 5px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  width: 150px;
+}
+.pageButton:hover {
+  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color: #ffffff;
+}
+.pageButton:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 530px) {
+  .myButton {
+    display: inline;
+  }
+  .filterButton {
+    display: inline;
+    float: none;
+  }
+  .pageButton {
+    display: inline;
+  }
+  .filter-container {
+    text-align: center;
+  }
+}

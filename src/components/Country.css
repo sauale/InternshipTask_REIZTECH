@@ -1,0 +1,18 @@
+.country-container {
+  margin: 10px;
+  background-color: rgb(154, 233, 130);
+  border-radius: 8px;
+}
+
+.country-element {
+  padding: 5px 5px;
+}
+
+.country-element-key {
+  display: inline;
+  color: rgb(240, 240, 240);
+}
+
+.country-element-value {
+  display: inline;
+}
